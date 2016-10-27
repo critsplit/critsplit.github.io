@@ -15,8 +15,7 @@ a {
   width: 100px;
   height: 100px;
   background: url("../images/logo.png") no-repeat center center;
-  margin-top: 0px auto;
-  margin-bottom: 0px auto;
+  margin-top: 10px auto;
 }
 
 #navbar {
