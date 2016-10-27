@@ -25,6 +25,11 @@ a {
   z-index: 10000;
 }
 
-#nav a {
-  display: inline-block;
+#nav {
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+#nav:child {
+  display: inline;
 }
