@@ -47,3 +47,8 @@ a {
   margin-left: 10px;
   float: left;
 }
+
+#nav a {
+  display: block;
+  margin: 18px;
+}
