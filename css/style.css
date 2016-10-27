@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-image: url("images/bg.png");
+  background-image: url("/images/bg.png");
   font-size: 1em;
   margin: 0;
   padding: 0;
