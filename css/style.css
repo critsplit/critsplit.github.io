@@ -13,3 +13,7 @@ a {
 #logo {
   width: 100px;
 }
+
+#nav a {
+  display: inline-block;
+}
