@@ -55,6 +55,13 @@ a {
 
 #nav a {
   display: block;
-  margin: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right:10px;
   color: #703E3E;
+}
+
+a {
+  text-decoration: none;
 }
