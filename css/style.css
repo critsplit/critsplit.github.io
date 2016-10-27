@@ -35,6 +35,15 @@ a {
   overflow: hidden;
 }
 
-#nav:child {
-  display: inline;
+#nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+#nav ul li {
+  list-style-type: none;
+  margin-left: 10px;
+  float: left;
 }
