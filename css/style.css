@@ -48,12 +48,12 @@ a {
   margin-left: 10px;
   float: left;
   vertical-align: middle;
-  border: solid #F3F781 2px;
+  border: solid #703E3E 2px;
   border-radius: 10px;
 }
 
 #nav a {
   display: block;
   margin: 18px;
-  color: #F3F781;
+  color: #703E3E;
 }
