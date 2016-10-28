@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "Phosphate-Inline";
+  src: url(phosphate-inline.ttf);
+}
+
 body {
   width: 100%;
   background-image: url("../images/bg.png");
-  font-family: "Phosphate Inline";
+  font-family: "Phosphate-Inline";
   font-size: 1em;
   margin: 0;
   padding: 0;
