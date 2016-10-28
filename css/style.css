@@ -6,15 +6,88 @@
 body {
   width: 100%;
   background-image: url("../images/bg.png");
-  text-transform: uppercase;
-  font-family: "Phosphate-Inline";
   font-size: 1em;
   margin: 0;
   padding: 0;
 }
 
+#feat-vid {
+  width: 700px;
+  height: 424px;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+}
+
 a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px #BBBBBB solid;
+  border-radius: 20px;
+  background: #EEEEEE;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.container:before {
+  display: block; 
+  content: " "; 
+  margin-top: -285px; 
+  height: 285px; 
+  visibility: hidden; 
+}
+
+.mini-container {
+  width: 40%;
+  border: 2px #999999 solid;
+  border-radius: 7.5px;
+  background: #BBBBBB;
+  display: inline-block;
+}
+
+.separate {
+  height: 1px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 2px #999999 solid;
+}
+
+/*.vertical-separate {
+  height: 90%;
+  width: 1px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-right: 2px #999999 solid;
+  display: inline;
+}*/
+
+#nav a {
   color: #0404B4;
+  font-family: "Phosphate-Inline";
+}
+
+#nav a {
+
+}
+
+.header {
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #logo {
@@ -35,6 +108,7 @@ a {
   left: 0;
   right: 0;
   z-index: 10000;
+  box-shadow: 0px 10px 100px 0px #111111;
 }
 
 #nav {
@@ -43,33 +117,71 @@ a {
 }
 
 #nav ul {
-  margin: 26px;
+  margin: 29px;
   padding: 0;
   overflow: hidden;
-  float: center;
   vertical-align: middle;
 }
 
 #nav ul li {
   list-style-type: none;
-  height: 20px;
   margin-left: 7px;
   margin-right: 7px;
   float: right;
   vertical-align: middle;
   border: solid #703E3E 2px;
   border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#nav ul li:hover {
+  border-color: #B15B5B;
 }
 
 #nav a {
   display: block;
-  padding-top: 18px;
+  padding-top: 30px;
   padding-bottom: 18px;
   padding-left: 22px;
   padding-right:22px;
   color: #703E3E;
 }
 
-a {
-  text-decoration: none;
+#nav a:hover {
+  color: #B15B5B;
+}
+
+#body-content {
+  width: 100%;
+  margin-top: 110px;
+}
+
+#welcome-img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+  background: #333333 url("../images/logo-big.png") no-repeat center center;
+  background-size: 100%;
+  font-family: "Phosphate-Inline";
+}
+
+a#yt-link {
+  display: block;
+  float: right;
+  font-size: 40px;
+  color: #B72921;
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#chrome-image {
+  width: 1em;
+  height: 1em;
+  background: url("../images/chrome-image.png") no-repeat center center;
+  background-size: 100%;
+  display: inline-block;
 }
