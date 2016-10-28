@@ -6,6 +6,7 @@
 body {
   width: 100%;
   background-image: url("../images/bg.png");
+  text-transform: uppercase;
   font-family: "Phosphate-Inline";
   font-size: 1em;
   margin: 0;
