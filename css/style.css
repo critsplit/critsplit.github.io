@@ -43,7 +43,8 @@ a {
   border: 2px #999999 solid;
   border-radius: 7.5px;
   background: #BBBBBB;
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 
 .separate {
@@ -171,14 +172,18 @@ a#yt-link {
   margin-right: 20px;
 }
 
-#live-count {
-
-}
-
 #chrome-image {
   width: 1em;
   height: 1em;
   background: url("../images/chrome-image.png") no-repeat center center;
+  background-size: 100%;
+  display: inline-block;
+}
+
+#firefox-image {
+  width: 1em;
+  height: 1em;
+  background: url("../images/firefox-image.png") no-repeat center center;
   background-size: 100%;
   display: inline-block;
 }
