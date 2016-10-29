@@ -12,7 +12,8 @@ body {
 }
 
 #feat-vid {
-  width: 700px;
+  max-width: 700px;
+  width: 70%;
   height: 424px;
   position: relative;
   right: 0;
@@ -26,7 +27,7 @@ a {
 }
 
 .container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   border: 2px #BBBBBB solid;
   border-radius: 20px;
@@ -35,14 +36,6 @@ a {
   color: #FFFFFF;
   padding: 10px;
   text-align: center;
-}
-
-.container:before {
-  display: block; 
-  content: " "; 
-  margin-top: -285px; 
-  height: 285px; 
-  visibility: hidden; 
 }
 
 .mini-container {
@@ -55,7 +48,7 @@ a {
 
 .separate {
   height: 1px;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -176,6 +169,10 @@ a#yt-link {
   padding-bottom: 30px;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+#live-count {
+
 }
 
 #chrome-image {

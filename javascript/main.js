@@ -20,4 +20,7 @@ $(document).ready(function () {
 			scrollTop: $("#welcome-img").offset().top + scrollOffset
 		}, scrollSpeed);
 	});
+
+	$("#live-count").click(function () {});
+	
 });
